@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Loxodonta Game Studio</title>
+	<meta name="description" content="">
+	<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+	<meta property="og:locale" content="pt_BR">
+	<meta name="theme-color" content="#F5F6FA">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Loxodonta Game Studio">
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://www.loxodonta.com.br/">
+	<meta property="og:site_name" content="Loxodonta Game Studio">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:title" content="loxodonta®">
+	<link rel="shortcut icon" href="imagem/fav.ico">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+	<div id="dashLoopOne"></div>
+	<div id="dashLoopTwo"></div>
+	<div id="dashLoopThree">
+		<div class="loxodonta"><img src="imagem/loxodontagamestudio.svg"></div>
+	</div>
+	<div class="banner">
+  	<div class="banner__content">
+    DUE TO CHANGES IN REDESIGN AND NAMING, THE SITE IS STILL UNDER CONSTRUCTION AND WILL BE FULLY AVAILABLE IN EARLY MAY/2022. THANKS ;D
+  	</div>
+  	<button class="banner__close" type="button">GOT IT!</button>
+</div>
+</body>
+<script>
+	document.querySelectorAll(".banner__close").forEach((closeButton) => {
+  closeButton.addEventListener("click", () =>
+    closeButton.closest(".banner").remove()
+  );
+});
+
+</script>
+</html>
